@@ -10,8 +10,17 @@ It is a node.js app that let's a Twitch.tv chat interact with a video game by ty
 
 3. Dowload Node.js
 4. Make sure you have all the needed modules (you can see a list of them in the package.json file).
-5. run the Index.js script with Node.js
-6. Let your twitch chat do the rest ;)
+5. Generate a password to allow your bot to access your Twitch Channel (Official twitch website: http://twitchapps.com/tmi/)
+6. add the generated password, your channel name and a bot name of your choice in the appropriate spaces in Index.js
+```javascript
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+6. run the Index.js script with Node.js
+7. Let your twitch chat do the rest ;)
 
 
 
