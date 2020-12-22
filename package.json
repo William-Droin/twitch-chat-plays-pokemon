@@ -11,7 +11,9 @@
   "dependencies": {
     "iohook": "^0.6.5",
     "robotjs": "^0.6.0",
-    "tmi.js": "^1.5.0"
+    "tmi.js": "^1.5.0",
+    "ws": "6.1.3",
+    "async-limiter": "1.0.1"
   },
   "devDependencies": {
     "node-key-sender": "^1.0.11"
