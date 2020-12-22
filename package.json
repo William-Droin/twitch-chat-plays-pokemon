@@ -1,0 +1,19 @@
+{
+  "name": "twitchbotcode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "williamdroin",
+  "license": "ISC",
+  "dependencies": {
+    "iohook": "^0.6.5",
+    "robotjs": "^0.6.0",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {
+    "node-key-sender": "^1.0.11"
+  }
+}
