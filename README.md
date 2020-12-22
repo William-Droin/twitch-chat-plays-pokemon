@@ -1,4 +1,4 @@
-# Twitch-Chat-Plays-Pokemon
+# twitch-chat-plays-pokemon
 It is a node.js app that let's a Twitch.tv chat interact with a video game by typing in the chat 
 
 ## How to set it up
