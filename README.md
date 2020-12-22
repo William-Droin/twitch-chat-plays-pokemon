@@ -1,7 +1,7 @@
 # Twitch-Chat-Plays-Pokemon
 It is a node.js app that let's a Twitch.tv chat interact with a video game by typing in the chat 
 
-## How to use it
+## How to set it up
 
 1. Download visualBoy
 2. Dowload your favorite Pokemon Game (This code can work with other GBA games but was tested with Pokemon Fire Red)
@@ -13,16 +13,16 @@ It is a node.js app that let's a Twitch.tv chat interact with a video game by ty
 5. Generate a password to allow your bot to access your Twitch Channel (Official twitch website: http://twitchapps.com/tmi/)
 6. add the generated password, your channel name and a bot name of your choice in the appropriate spaces in Index.js
 ```javascript
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+identity: {
+		username: '[Replace with username of your Twitch Bot]',
+		password: '[Replace with the password generated for your Twitch Bot]'
+	},
+	channels: [ 'YOUR CHANNEL' ]
 ```
-6. run the Index.js script with Node.js
-7. Let your twitch chat do the rest ;)
+7. run the Index.js script with Node.js
+8. Let your twitch chat do the rest ;)
 
-
+## Commands
 
 
 
