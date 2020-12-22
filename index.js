@@ -83,10 +83,10 @@ const client = new tmi.Client({
 		reconnect: true
 	},
 	identity: {
-		username: 'DabDab',
-		password: 'oauth:hwjgt1o97t43zyue6t3a0lq25oxbcq'
+		username: '[Replace with username of your Twitch Bot]',
+		password: '[Replace with the password generated for your Twitch Bot]'
 	},
-	channels: [ 'kasimolo33' ]
+	channels: [ 'YOUR CHANNEL' ]
 });
 
 client.connect();
